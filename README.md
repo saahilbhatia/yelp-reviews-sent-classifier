@@ -6,7 +6,9 @@ Several preprocessing steps including case normalization, removing non alpha-num
 
 Unigram and Bigram features were extracted from the reviews. Term Frequency (TF) and Term Frequency Inverse Document Frequency (TF-IDF) representations were attempted; TF-IDF representation yielded a slightly higher accuracy in the statistical models.The number of features used in the final classifer were 10,000; this was finalised after experimenting with different number of features.  
 
-Several statistical models including multinomial Naive Bayes, Multinomial Logistic Regression and Linear Support Vector Classifier were used to develop the sentiment classifer. Multinomial Logistic Regression was found to have the highest predictive power for this dataset and used in the final classifer. *Note that this code only contains the preprocessing steps, feature extraction and statistical model for the final classifer. Refer to the report for a detailed explanation of development of the the final classifer. 
+Several statistical models including multinomial Naive Bayes, Multinomial Logistic Regression and Linear Support Vector Classifier were used to develop the sentiment classifer. Multinomial Logistic Regression was found to have the highest predictive power for this dataset and used in the final classifer.
+
+*Note that this code only contains the preprocessing steps, feature extraction and statistical model for the final classifer.*
 
 ## Packages required
 * pandas 
